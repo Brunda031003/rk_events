@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-black/95 backdrop-blur-md border-b border-yellow-900/40 py-3" : "bg-transparent py-5"}`}>
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src="/images/Logo.jpg" alt="RK Events Logo" className="w-[42px] h-auto" />
+          <img src={`${import.meta.env.BASE_URL}images/photo.png`} alt="RK Events Logo" className="w-[42px] h-auto" />
           <div>
             <p className="text-yellow-400 font-bold text-lg leading-none tracking-widest" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>RK EVENTS</p>
             <p className="text-yellow-600/70 text-[9px] tracking-[0.2em] uppercase">Creating Priceless Happiness</p>
