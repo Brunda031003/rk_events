@@ -9,4 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: '/rk_events/'
 })
