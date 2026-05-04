@@ -55,8 +55,8 @@ const GoldDivider = () => (
       </div>
  
       <div className={`relative z-10 text-center px-6 max-w-4xl mx-auto transition-all duration-1000 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-        <div className={`flex justify-center mb-8 transition-all duration-1000 delay-100 ${visible ? "opacity-100 scale-100" : "opacity-0 scale-90"}`}>
-          <img src="/images/Logo.jpg" alt="RK Events Logo" className="w-[120px] h-auto" />
+          <div className={`flex justify-center mb-8 transition-all duration-1000 delay-100 ${visible ? "opacity-100 scale-100" : "opacity-0 scale-90"}`}>
+          <img src={`${import.meta.env.BASE_URL}images/Logo.jpg`} alt="RK Events Logo" className="w-[120px] h-auto" />
         </div>
  
         <p className={`text-yellow-500 text-xs tracking-[0.5em] uppercase mb-4 transition-all duration-700 delay-200 ${visible ? "opacity-100" : "opacity-0"}`}>
