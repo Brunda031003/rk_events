@@ -21,7 +21,7 @@ const GoldDivider = () => (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-20 md:pt-0"
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.78)), url(${import.meta.env.BASE_URL}images/Background.jpg)`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.78)), url(${import.meta.env.BASE_URL}images/Background1.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
